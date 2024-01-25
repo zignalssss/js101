@@ -16,25 +16,35 @@
         //arr
         let arr = [true,"hello",5];
         for(x of arr){
-            document.write(" "+ x);
+            document.write(" " + x);
         }
-        for(x in arr){
-            document.write(" " + arr[x]);
-        }
+       
         //object
         var obj = {
             brand : "Tesla",
             color : "black",
             wheels : 4
         }
+        
         console.log(obj.brand);
         console.log(obj["color"]);
         add(1,2);
+        let a = [2,4,6,8,10];
+        for(let i = 0;i < a.length;i++){
+            console.log(a[i]);
+        }
+        let i = 0;
+        while(i < a.length){
+            console.log(a[i++]);
+        }
+        for(x in obj){
+            //console.log(x+" = "+obj[x]);
+            console.log(`${x} has ${obj[x]}`)
+        }
         //let name1 = prompt("input u name:");
         //alert("Hello" + name1);
     </script>
 </head>
-<body>
-    
+<body>  
 </body>
 </html>
