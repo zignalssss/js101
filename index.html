@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <p>Demo Javascript</p>
+    <script>
+        function add(a,b){
+            console.log(a+b);
+        }
+        var name = "Wiritipon Thapkhan";
+        var gpa = 3.9
+        document.write("<h3> Hello,World </h3>");
+        document.write("<h3> "+ name +"</h3>");
+        //arr
+        let arr = [true,"hello",5];
+        for(x of arr){
+            document.write(" "+ x);
+        }
+        for(x in arr){
+            document.write(" " + arr[x]);
+        }
+        //object
+        var obj = {
+            brand : "Tesla",
+            color : "black",
+            wheels : 4
+        }
+        console.log(obj.brand);
+        console.log(obj["color"]);
+        add(1,2);
+        //let name1 = prompt("input u name:");
+        //alert("Hello" + name1);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
